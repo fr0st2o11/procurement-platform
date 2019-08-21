@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=1920, initial-scale=1">
+
+	<title>Procurement-Platform</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../main.css">
+
+</head>
+<!--/head-->
+
+<body class="login">
+	<div class="container">
+		<div class="headig">
+			<div class="left"><a href="/index/">Back to home</a></div>
+			<img src="../img/logo.png" alt="/">			
+		</div>
+
+		<div class="log">
+
+			<div class="inputs f-login" id="formOne">
+			<h3 style="margin-bottom: 60px;">Welcome<br>Please SIGN in to your account</h3>
+			<input type="text" size="40" placeholder="Email" id="category">
+			<label class="icon category" for="category">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M19.4317 16.6465C19.3365 16.6465 19.2413 16.6117 19.167 16.5413L14.714 12.3638C14.5585 12.2183 14.5507 11.973 14.697 11.8174C14.8433 11.6603 15.087 11.6534 15.2441 11.8004L19.6971 15.9779C19.8527 16.1234 19.8604 16.3687 19.7141 16.5243C19.6375 16.6055 19.5354 16.6465 19.4317 16.6465Z" fill="#A1A1A1"/>
+			<path d="M4.56751 16.6468C4.46458 16.6468 4.36165 16.6057 4.28504 16.5245C4.13877 16.3689 4.14651 16.1236 4.30206 15.9781L8.75659 11.8006C8.91292 11.6551 9.15825 11.6613 9.30374 11.8177C9.45 11.9732 9.44226 12.2185 9.28671 12.364L4.83218 16.5415C4.75788 16.6119 4.6627 16.6468 4.56751 16.6468Z" fill="#A1A1A1"/>
+			<path d="M22.0653 20.5307H1.93474C0.868309 20.5307 0 19.6631 0 18.5959V5.40336C0 4.33616 0.868309 3.46863 1.93474 3.46863H22.0653C23.1317 3.46863 24 4.33616 24 5.40336V18.5959C24 19.6631 23.1317 20.5307 22.0653 20.5307ZM1.93474 4.24252C1.29472 4.24252 0.773894 4.76335 0.773894 5.40336V18.5959C0.773894 19.2359 1.29472 19.7568 1.93474 19.7568H22.0653C22.7053 19.7568 23.2261 19.2359 23.2261 18.5959V5.40336C23.2261 4.76335 22.7053 4.24252 22.0653 4.24252H1.93474Z" fill="#A1A1A1"/>
+			<path d="M12 13.944C11.4854 13.944 10.9708 13.773 10.5792 13.4317L0.642374 4.7633C0.481404 4.62323 0.464378 4.37867 0.604453 4.21693C0.746075 4.05596 0.989852 4.04126 1.15082 4.17978L11.0876 12.8474C11.5821 13.2785 12.4179 13.2785 12.9117 12.8474L22.8361 4.19371C22.9963 4.05364 23.2401 4.06912 23.3825 4.23086C23.5226 4.3926 23.5063 4.63638 23.3453 4.77723L13.4209 13.4309C13.0285 13.773 12.5147 13.944 12 13.944Z" fill="#A1A1A1"/>
+			</svg>
+			</label>
+			<br>
+			<input type="text" size="40" placeholder="Password" id="pass" style="margin-bottom: 60px;">
+			<label class="icon pass" for="pass">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M19.1111 8.93911V6.44444C19.1111 2.89111 15.9209 0 12 0C8.07912 0 4.8889 2.89111 4.8889 6.44444V8.93911C3.37734 9.19956 2.22223 10.5169 2.22223 12.1022V20.7876C2.22223 22.5587 3.66356 24 5.43512 24H18.5649C20.3365 24 21.7778 22.5587 21.7778 20.7871V12.1018C21.7778 10.5169 20.6227 9.19956 19.1111 8.93911ZM5.77778 6.44444C5.77778 3.38089 8.5689 0.888889 12 0.888889C15.4311 0.888889 18.2222 3.38089 18.2222 6.44444V8.88889H5.77778V6.44444ZM20.8889 20.7871C20.8889 22.0684 19.8462 23.1111 18.5649 23.1111H5.43512C4.15378 23.1111 3.11112 22.0684 3.11112 20.7871V12.1018C3.11112 10.8204 4.15378 9.77778 5.43512 9.77778H18.5649C19.8462 9.77778 20.8889 10.8204 20.8889 12.1018V20.7871Z" fill="#A1A1A1"/>
+			<path d="M12 12.4443C11.0196 12.4443 10.2222 13.2417 10.2222 14.2221V16.8888C10.2222 17.8692 11.0196 18.6666 12 18.6666C12.9805 18.6666 13.7778 17.8692 13.7778 16.8888V14.2221C13.7778 13.2417 12.9805 12.4443 12 12.4443ZM12.8889 16.8888C12.8889 17.379 12.4902 17.7777 12 17.7777C11.5098 17.7777 11.1111 17.379 11.1111 16.8888V14.2221C11.1111 13.7319 11.5098 13.3332 12 13.3332C12.4902 13.3332 12.8889 13.7319 12.8889 14.2221V16.8888Z" fill="#A1A1A1"/>
+			</svg>
+			</label>
+
+				<div class="f-check">
+						<label for="r4"><input type="checkbox" hidden id="r4" name="r4"><span></span><font>Keep me logged in</font></label>
+				</div>
+				<a href="#" class="forgot">Forgot password?</a>
+                <br>
+                <div class="btns_log">
+                <a href="#" class="btn_signup">Sign up</a>
+                <a href="#" class="btn_login">Log in</a>
+                </div>
+
+			</div>
+			<!--/#formOne-->
+
+
+			<div class="inputs f-slider" id="formTwo">
+				
+				<div id="slider">
+					<div id="image-1">
+						<a href="#"><img src="../img/1.png" alt="" /></a>
+						<a class="slider-nav" href="#image-1"></a>
+					</div>
+					<div id="image-2">
+						<a href="#"><img src="../img/2.png" alt="" /></a>
+						<a class="slider-nav" href="#image-2"></a>
+					</div>
+					<div id="image-3">
+						<a href="#"><img src="../img/3.png" alt="" /></a>
+						<a class="slider-nav" href="#image-3"></a>
+					</div>
+					<div id="image-4">
+						<a href="#"><img src="../img/4.png" alt="" /></a>
+						<a class="slider-nav" href="#image-4"></a>
+					</div>	
+				</div>
+
+			</div>
+			<!--/#formTwo-->
+
+		</div>
+		<!--/form log-->
+
+	</div>
+	<!--/container-->
+
+	<script src="../dropdown.js" type="text/javascript"></script>
+
+</body>
+<!--/body-->
+
+<div class="copywrite">© 2019. All rights reserved. Have any questins? <a href="#">Contact us!</a></div>
+<!--/copywrite-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
